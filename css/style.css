@@ -57,6 +57,15 @@ nav a:hover {
   color: black;
   border-radius: 10px;
 }
+.btn.black {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
 .dropdown {
   position: absolute;
   top: 65px;
@@ -94,7 +103,7 @@ nav a:hover {
   position: absolute;
   top: 65px;
   padding: 20px;
-  left: 50%;
+  left: 35%;
   display: none;
   background-color: #FFFFFF;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -105,4 +114,7 @@ nav a:hover {
 .bonus-container ul li {
   display: block;
   margin-bottom: 20px;
+}
+.bonus-container ul {
+  padding: 0 20px;
 }
