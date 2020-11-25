@@ -14,6 +14,7 @@ $( document ).ready(
       $(".dropdown").mouseleave(
         function(){
            $(".dropdown").removeClass("this-active")
+           $("a").removeClass("this-active")
       }
     )
   }

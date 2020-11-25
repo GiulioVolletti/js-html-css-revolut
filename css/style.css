@@ -66,6 +66,9 @@ nav a:hover {
 .dropdown.this-active{
   display: flex;
 }
+.this-active:first-child{
+  color: black;
+}
 
 #abbonamenti .dropdown {
   right: 420px;
