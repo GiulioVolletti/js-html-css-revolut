@@ -7,11 +7,11 @@ $( document ).ready(
       function(){
         console.log($(this).children().hasClass("dropdown"));
         if ($(this).children().hasClass("dropdown") == true) {
-          $(this).children().addClass("this-active")          
+          $(this).children().toggleClass("this-active")
         }
       }
     )
-      $("li").mouseleave(
+      $(".dropdown").mouseleave(
         function(){
            $(".dropdown").removeClass("this-active")
       }

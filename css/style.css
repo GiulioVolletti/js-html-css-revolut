@@ -28,6 +28,7 @@ nav a {
   text-decoration: none;
   color: #bbbdbd;
   vertical-align: middle;
+  height: 100%;
 }
 nav a:hover {
   color: black;
@@ -36,6 +37,7 @@ nav a:hover {
 .nav-right ul > li {
   display: inline-block;
   padding: 0 10px;
+  height: 30px;
 }
 .nav-left ul > li {
   display: inline-block;
@@ -49,7 +51,7 @@ nav a:hover {
 }
 .dropdown {
   position: absolute;
-  top: 80px;
+  top: 65px;
   width: 180px;
   padding: 20px;
   display: none;
